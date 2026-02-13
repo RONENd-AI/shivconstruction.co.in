@@ -231,10 +231,22 @@ img {
 
 /* About Us */
 .about-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    align-items: center;
+    display: block;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.welcome .container {
+    max-width: 900px;
+}
+
+.welcome blockquote {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-top: 30px;
+    font-style: italic;
 }
 
 .about-text p {
